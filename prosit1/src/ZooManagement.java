@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class ZooManagement {
     int nbrCages;
     String zooName;
@@ -27,7 +26,17 @@ public static void main(String[] args) {
         }
     }while(zoo.nbrCages<=0);
     System.out.println(zoo.zooName +" comporte "+zoo.nbrCages+ " cages ");
+
+
+
+
+
+
+
+Animal a1=new Animal("lion","mounir",5,true);
+Zoo z1=new Zoo("carthage","tunis",70);
+z1.animals[0]=a1;
+
+    System.out.println(z1);
 }
-
-
 }
