@@ -13,4 +13,12 @@ public class Animal {
         this.isAnimal = isAnimal;
     }
 
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "family='" + family + '\'' +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
